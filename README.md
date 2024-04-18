@@ -1,4 +1,5 @@
 # RAGStackDemo
+Streamlit App URL: https://ragstackdemo.streamlit.app/
 
 # Philosopher Quote Retriever with Langchain
 
@@ -87,21 +88,7 @@ This file is the main entry point for the Streamlit application:
 * Integration with Evaluation API for feedback and improvement.
 * Integration with much better retreival Stratergies like Colbert, and RAPTOR.
 
+### Screenshots:
+https://ragstackdemo.streamlit.app/
 
-
-
-
-
-
-### Running the Project:
-
-1. Install Langchain and its dependencies: `pip install langchain`
-2. Set the required environment variables (refer to `rag.py` for details).
-3. Run the application: `streamlit run app.py`
-
-This will launch the Philosopher RAG Chatbot in your web browser. You can interact with the chatbot by asking questions about philosophers and their quotes.
-
-### Additional Notes:
-
-* The `chat.py` file includes placeholders for potential future features like feedback mechanisms and authentication.
-* The Streamlit code utilizes techniques like session state and placeholders to manage conversation history and simulate typing effects.
+<img src="./arch/screenshot.png"> 

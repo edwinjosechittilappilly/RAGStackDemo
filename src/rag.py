@@ -5,8 +5,6 @@ from langchain_astradb import AstraDBVectorStore
 from langchain_core.documents import Document
 from langchain_core.output_parsers import StrOutputParser, BaseOutputParser
 from langchain_core.prompts import ChatPromptTemplate, PromptTemplate
-from langchain_core.runnables import RunnablePassthrough
-from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.chains.query_constructor.base import AttributeInfo
 from langchain.retrievers.self_query.base import SelfQueryRetriever
 from pydantic.v1 import BaseModel, Field
@@ -14,8 +12,6 @@ from typing import List
 from langchain.chains import LLMChain
 from langchain.output_parsers import PydanticOutputParser
 from langchain.retrievers.multi_query import MultiQueryRetriever
-from langchain_core.output_parsers import StrOutputParser
-from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnableParallel, RunnablePassthrough
 
 load_dotenv()
