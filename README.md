@@ -7,7 +7,9 @@ This repository contains code for a retrieval system that utilizes Langchain to 
 * **Langchain:** A framework for building conversational AI applications.
 * **Google Generative AI:** A large language model for text generation and retrieval.
 * **Astra DB Vector Store:** A database for storing and searching vector representations of text.
+## Architecture Overview
 
+<img src="./arch/RagstackDemo.gif"> 
 
 ### Project Structure:
 
