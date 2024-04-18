@@ -1,4 +1,5 @@
 streamlit
+ragstack-ai
 python-dotenv
 langchain-google-genai 
 pillow
